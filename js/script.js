@@ -10,19 +10,19 @@ class Calculator {
     }
 
     pressEnter() {
-        this.display.addEventListener('keyup', e => {
-            if (e.key === 'Enter') {
+        this.display.addEventListener('keyup', event => {
+            if (event.key === 'Enter') {
                 this.equalOperation()
             }
         })
     }
 
     clickButtons() {
-        document.addEventListener('click', e => {
-            const el = e.target
+        document.addEventListener('click', event => {
+            const el = event.target
 
             if (el.classList.contains('button-num')){
-                this.buttonForDisplay(el.innerText)
+                this.addNumberDisplay(el.innerText)
             }
             if (el.classList.contains('button-clear')){
                 this.clearDisplay()
@@ -44,7 +44,7 @@ class Calculator {
         this.display.value = this.display.value.slice(0, -1)
     }
 
-    buttonForDisplay(valor) {
+    addNumberDisplay(valor) {
         this.display.value += valor
     }
 
