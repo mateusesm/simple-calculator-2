@@ -46,6 +46,7 @@ class Calculator {
 
     addNumberDisplay(valor) {
         this.display.value += valor
+        this.display.focus()
     }
 
     equalOperation() {
