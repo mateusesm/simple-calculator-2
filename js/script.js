@@ -36,17 +36,17 @@ class Calculator {
         })
     }
 
+    addNumberDisplay(valor) {
+        this.display.value += valor
+        this.display.focus()
+    }
+
     clearDisplay() {
         this.display.value = ''
     }
 
     deleteOne() {
         this.display.value = this.display.value.slice(0, -1)
-    }
-
-    addNumberDisplay(valor) {
-        this.display.value += valor
-        this.display.focus()
     }
 
     equalOperation() {
