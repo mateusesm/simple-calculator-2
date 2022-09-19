@@ -2,4 +2,4 @@
 
 Versão mais atualizada e ao mesmo tempo minimalista de calculadora simples utilizando apenas HTML, CSS e JavaScript
 
-Disponível em:
+[Disponível em:](https://mateusesm.github.io/simple-calculator-2/)
