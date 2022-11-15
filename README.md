@@ -1,4 +1,4 @@
-## Simple Calculator 2.0
+### Simple Calculator 2.0
 
 Most updated version and at the same time minimalist of simples calculator made only with HTML, CSS and JavaScript.
 
